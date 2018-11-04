@@ -8,6 +8,10 @@
 		.marginBtn{
 			margin-bottom: 0;
 		}
+		.text--bold{
+			font-weight: bold;
+			font-size: 16px;
+		}
 	</style>
 </head>
 <body>
@@ -15,7 +19,7 @@
 	<h1>Форма</h1>
 	<form action="" style="margin-bottom: 30px">
 		<fieldset>
-			<legend>Коротко о себе</legend>
+			<legend class="text--bold">Коротко о себе</legend>
 			Имя <input type="text" name="name"> <br>
 			<br>
 			Фамилия <input type="text" name="surname"> <br>
@@ -29,7 +33,7 @@
 		</fieldset>
 		<br>
 		<fieldset>
-			<legend>Подробнее о себе</legend>
+			<legend class="text--bold">Подробнее о себе</legend>
 			<input type="radio" id="youngMan" name="radioAge"> <label for="youngMan">молодой человек</label>
 			<br>
 			<input type="radio" id="girl" name="radioAge"> <label for="girl">девушка</label><br>
@@ -38,26 +42,26 @@
 			<input type="text" name="socialStatus"> Социальный статус <br>
 			<input type="text" name="residence"> Местожительство <br>
 			
-			<h2>Что вы обучно делаете на выходных</h2>
+			<h2 class="text--bold">Что вы обучно делаете на выходных</h2>
 			<label><input type="checkbox" name="freeDaySleep"> Сплю</label><br>
 			<label><input type="checkbox" name="freeDayFriends"> Гуляю с друзьями</label><br>
 			<label><input type="checkbox" name="freeDayFishing"> Хожу на рыбалку</label><br>
 			<label><input type="checkbox" name="freeDayGames"> Играю в игры</label><br>
 			
-			<h2>Рассказать о формах в книге, посвященной HTML</h2>
+			<h2 class="text--bold">Рассказать о формах в книге, посвященной HTML</h2>
 			<select name="htmlBook" id="">
 				<option value="htmlBook0">Site frequency</option>
 				<option value="htmlBook1">Site frequency1</option>
 				<option value="htmlBook2">Site frequency2</option>
 			</select>
 			
-			<h2>Сколько кник Вы прочитали за свою жизнь</h2>
+			<h2 class="text--bold">Сколько кник Вы прочитали за свою жизнь</h2>
 			<label><input type="radio" name="radioBook"> 0-10</label><br>
 			<label><input type="radio" name="radioBook"> 11-20</label><br>
 			<label><input type="radio" name="radioBook"> 21-50</label><br>
 			<label><input type="radio" name="radioBook"> 50-</label><br>
 			
-			<h2 class="marginBtn">Ваши комментарии:</h2>
+			<h2 class="text--bold marginBtn">Ваши комментарии:</h2>
 			<textarea name="comments" id="comments" cols="80" rows="10"></textarea>
 			<br>
 			<br>
@@ -70,13 +74,13 @@
 		</fieldset>
 		<br>
 		<fieldset>
-			<legend>И в заключение</legend>
+			<legend class="text--bold">И в заключение</legend>
 			<input type="text" style="min-width: 250px" placeholder="Это поле было введено до Вас">
 			
-			<h2 class="marginBtn">Email</h2>
+			<h2 class="marginBtn text--bold">Email</h2>
 			<input type="email">
 			
-			<h2 class="marginBtn">Хотите подписаться на самую модную рассылку спама</h2>
+			<h2 class="marginBtn text--bold">Хотите подписаться на самую модную рассылку спама</h2>
 			<i>Выберите катергорию</i>
 			<br>
 			<br>
@@ -84,7 +88,7 @@
 			<label><input type="checkbox" name="spam1">Как приготовить обед</label><br>
 			<label><input type="checkbox" name="spam2">Заработай милион за два дня</label><br>
 			
-			<h2>На сколько сложная задача</h2>
+			<h2 class="text--bold">На сколько сложная задача</h2>
 			<label><input type="radio" name="difficult">Совсем нет</label><br>
 			<label><input type="radio" name="difficult">Так себе</label><br>
 			<label><input type="radio" name="difficult">Еле справиилсь</label><br>
